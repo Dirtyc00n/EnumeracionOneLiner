@@ -6,7 +6,7 @@ import requests, signal, time, sys,pdb
 
 def def_handler(sig, frame):
 
-        print("\n\n[!] Saliendo...\n")
+        print("\n\n[!] coming out...\n")
         sys.exit(1)
 
 signal.signal(signal.SIGINT, def_handler)
